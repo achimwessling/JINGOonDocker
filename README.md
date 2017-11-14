@@ -10,7 +10,7 @@ Data and configuration file are stored under the *volume* `/app/data`. So an  in
 under docker can be as easy as this:
 
 ```
-> docker run -d -v "/opt/docker/volumes/jingo:/app/data" -p 6067:6067 --restart always --name jingo 33wessling824/jingo
+> docker run -d -v "/opt/docker/volumes/jingo:/app/data" -p 6067:6067 --restart always --name jingo 33wessling824/jingoondocker
 ```
 
 After this you could get the starting page at [http://localhost:6067](http://localhost:6067),
